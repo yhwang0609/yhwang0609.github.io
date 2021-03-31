@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+table {border: solid 3px; font-size: 15pt}
+td, th {border: solid 1px;}
+thead {background-color: Pink;}
+th {background-color: Pink;}
+
+</style>
+</head>
+<body>
+<br><h1>My curriculum</h1>
+<hr>
+<p>The Department of Real Estate & Built Environment</p>
+<br><br>
+
+<table width="750" style="table-layout:fixed">
+	<thead>
+		<th width="50"></th>
+		<th height="40">Mon</th>
+		<th height="40">Tue</th>
+		<th height="40">Wen</th>
+		<th height="40">Thu</th>
+		<th height="40">Fri</th>
+	</thead>
+	<tbody>
+		<tr>
+			<th height="40">1</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th height="40">2</th>
+			<td></td>
+			<td rowspan="3">City Planning</td>
+			<td rowspan="3">Introduction to<br>Civil Law</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th height="40">3</th>
+			<td rowspan="2">Tennis</td>
+			<td rowspan="2">Architecture</td>
+			<td rowspan="2">Elementary<br>Surveying</td>
+		</tr>
+		<tr>
+			<th height="40">4</th>
+		</tr>
+		<tr>
+			<th colspan="6" height="40">Noon</th>
+		</tr>
+		<tr>
+			<th height="40">5</th>
+			<td rowspan="2">Freshman Chinese</td>
+			<td rowspan="2">Statistics</td>
+			<td rowspan="3">Web Programming</td>
+			<td rowspan="3">Economics</td>
+			<td rowspan="4">Elementary Surveying</td>
+		</tr>
+		<tr>
+			<th height="40">6</th>
+		</tr>
+		<tr>
+			<th height="40">7</th>
+			<td rowspan="2">Chinese Philosophy</td>
+			<td rowspan="2">Computer Aided Design</td>
+		</tr>
+		<tr>
+			<th height="40">8</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th height="40">9</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th colspan="6"><b><i>Total Credit:25</i></b></th>
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>
